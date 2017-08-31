@@ -177,6 +177,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Merlin_New_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Merlin New Field</label>
+        <length>5</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>MobilePhone</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -186,9 +196,11 @@
     </fields>
     <fields>
         <fullName>New_Field_1__c</fullName>
+        <description>Description</description>
         <externalId>false</externalId>
+        <inlineHelpText>Help Text</inlineHelpText>
         <label>New Field 1</label>
-        <length>8</length>
+        <length>100</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
